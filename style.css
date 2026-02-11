@@ -1,0 +1,102 @@
+img.carousel-slide{
+    height: 800px;
+    object-fit: cover;
+}
+#text{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    color: rgb(174, 22, 22);
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+    /* font-size: 50px; */
+}
+.card-text{
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+.card-title{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+#name{
+    font-family: Cambria,Georgia,serif; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo-img{
+    height: 80px;
+    width: auto;
+}
+
+.navbar{
+    height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #1a1a1a;
+}
+
+.navbar-toggler{
+    margin-left: auto;
+}
+
+.card-price{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.product-card{
+    background: #111;
+    border: 1px solid #ff2a2a;
+    overflow: hidden;
+    transition: all 0.35s ease;
+    border-radius: 12px;
+}
+
+.img-box{
+    overflow: hidden;
+}
+
+.product-card img{
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover img{
+    transform: scale(1.05);
+}
+
+.product-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 45px rgba(255, 0, 0, 0.35);
+    border-color: #ff4d4d;
+}
+
+.modal-content{
+    background: #111;
+    color: rgb(213, 213, 213);
+    border-radius: 15px;
+    border: 1px solid #8c1313;
+    box-shadow: 0 0 40px rgba(116, 6, 6, 0.721);
+    animation: popup 0.35s ease;
+}
+
+@keyframes popup{
+    from{
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.modal-content .btn{
+    background: #ff2a2a;
+    border: none;
+}
+
+.modal-content .btn:hover{
+    background: #ff5555;
+    box-shadow: 0 0 15px rgba(255,0,0,0.7);
+}
+
